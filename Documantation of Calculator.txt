@@ -1,0 +1,34 @@
+Documentation
+Functions
+add(num1, num2):
+
+Description: Adds two numbers and returns the result.
+Parameters:
+num1 (float): The first number.
+num2 (float): The second number.
+Returns: float - The sum of num1 and num2.
+sub(num1, num2):
+
+Description: Subtracts the second number from the first and returns the result.
+Parameters:
+num1 (float): The first number.
+num2 (float): The second number.
+Returns: float - The difference between num1 and num2.
+prod(num1, num2):
+
+Description: Multiplies two numbers and returns the result.
+Parameters:
+num1 (float): The first number.
+num2 (float): The second number.
+Returns: float - The product of num1 and num2.
+divide(num1, num2):
+
+Description: Divides the first number by the second and returns the result.
+Parameters:
+num1 (float): The first number.
+num2 (float): The second number.
+Returns: float - The quotient of num1 divided by num2.
+Raises: ValueError - If num2 is zero.
+main():
+
+Description: Main function to perform basic arithmetic operations based on user input. Continues to prompt the user for input until they choose to exit.
